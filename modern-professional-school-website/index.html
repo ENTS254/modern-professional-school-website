@@ -1,18 +1,661 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Enkakenya Ng'ejuk Testimony School — a nurturing primary and junior school in Suswa Town, Kenya, offering quality Play-Group to Junior School education. Admissions now open."
-    />
-    <meta name="theme-color" content="#0a2757" />
-    <link rel="icon" type="image/png" href="/images/logo.png" />
-    <title>Enkakenya Ng'ejuk Testimony School | Quality Education in Suswa Town</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enkakenya Ng'ejuk Testimony School - Shaping Tomorrow's Leaders Through Quality Education. Located in Suswa Town, Kenya.">
+    <meta name="keywords" content="Enkakenya Ngejuk Testimony School, Suswa, Kenya, Primary School, CBC Education, Admissions">
+    <title>Enkakenya Ng'ejuk Testimony School | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== TOP BAR ========== -->
+<div class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-left">
+            <span><i class="fas fa-map-marker-alt"></i> Opposite Healing River Church, Suswa Town</span>
+            <span><i class="fas fa-clock"></i> Mon–Fri: 7:00 AM – 5:00 PM</span>
+        </div>
+        <div class="top-bar-right">
+            <a href="tel:+254119126378"><i class="fas fa-phone"></i> +254 119 126 378</a>
+            <a href="https://wa.me/254119126378" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container nav-inner">
+        <!-- Logo -->
+        <a href="index.html" class="nav-logo" aria-label="Enkakenya Ng'ejuk Testimony School Home">
+            <div class="logo-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="logo-text">
+                <span class="logo-main">Enkakenya Ng'ejuk</span>
+                <span class="logo-sub">Testimony School</span>
+            </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="academics.html" class="nav-link">Academics</a></li>
+            <li class="dropdown">
+                <a href="admissions.html" class="nav-link dropdown-toggle">
+                    Admissions <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="admissions.html#process">Admission Process</a></li>
+                    <li><a href="admissions.html#documents">Required Documents</a></li>
+                    <li><a href="admissions.html#apply">Apply Now</a></li>
+                    <li><a href="admissions.html#fees">Fee Structure</a></li>
+                </ul>
+            </li>
+            <li><a href="school-life.html" class="nav-link">School Life</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li><a href="news.html" class="nav-link">News & Events</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- CTA & Hamburger -->
+        <div class="nav-actions">
+            <a href="admissions.html" class="btn btn-primary nav-cta">Apply Now</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ========== HERO SECTION ========== -->
+<section class="hero" id="home" aria-label="Hero Section">
+    <div class="hero-slider">
+        <div class="hero-slide active" style="background-image: url('images/hero1.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/hero2.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('images/hero3.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+        <div class="hero-badge animate-fade-in">
+            <i class="fas fa-star"></i> Admissions Open 2025
+        </div>
+        <h1 class="hero-title animate-slide-up">
+            Shaping <span class="highlight-yellow">Tomorrow's</span> Leaders<br>
+            Through <span class="highlight-yellow">Quality</span> Education
+        </h1>
+        <p class="hero-subtitle animate-slide-up delay-1">
+            Enroll your child at Enkakenya Ng'ejuk Testimony School — where every sunrise sparks potential.<br>
+            CBC-aligned curriculum | Qualified Teachers | Safe Learning Environment
+        </p>
+        <div class="hero-classes animate-slide-up delay-2">
+            <span class="class-badge">Play Group</span>
+            <span class="class-badge">PP1</span>
+            <span class="class-badge">PP2</span>
+            <span class="class-badge">Grade 1</span>
+            <span class="class-badge">Grade 2</span>
+        </div>
+        <div class="hero-buttons animate-slide-up delay-3">
+            <a href="admissions.html" class="btn btn-yellow btn-lg">
+                <i class="fas fa-pencil-alt"></i> Apply Now
+            </a>
+            <a href="about.html" class="btn btn-outline-white btn-lg">
+                <i class="fas fa-play-circle"></i> Take a Tour
+            </a>
+        </div>
+        <div class="hero-contact animate-slide-up delay-3">
+            <a href="tel:+254119126378" class="hero-phone">
+                <i class="fas fa-phone-alt"></i> +254 119 126 378
+            </a>
+        </div>
+    </div>
+    <!-- Slide Controls -->
+    <div class="hero-controls">
+        <button class="hero-prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+        <div class="hero-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+        <button class="hero-next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    <!-- Scroll Down -->
+    <a href="#welcome" class="scroll-down" aria-label="Scroll Down">
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</section>
+
+<!-- ========== ANNOUNCEMENT TICKER ========== -->
+<div class="ticker-wrap">
+    <div class="ticker-label"><i class="fas fa-bullhorn"></i> Latest News</div>
+    <div class="ticker">
+        <div class="ticker-track">
+            <span>🎉 Admissions for 2025 are now OPEN — Play Group, PP1, PP2, Grade 1 & Grade 2</span>
+            <span>📚 CBC-aligned curriculum for holistic child development</span>
+            <span>🏆 Strong foundation for academic & life success</span>
+            <span>📞 Call us: +254 119 126 378 | Located: Opposite Healing River Church, Suswa Town</span>
+            <span>✅ Qualified, certified & caring teachers and staff</span>
+            <span>🎉 Admissions for 2025 are now OPEN — Play Group, PP1, PP2, Grade 1 & Grade 2</span>
+        </div>
+    </div>
+</div>
+
+<!-- ========== WELCOME SECTION ========== -->
+<section class="section welcome-section" id="welcome" aria-label="Welcome Section">
+    <div class="container">
+        <div class="welcome-grid">
+            <div class="welcome-images reveal">
+                <div class="img-stack">
+                    <img src="images/school-building1.jpg" alt="Enkakenya Ng'ejuk Testimony School Building" class="img-main" loading="lazy">
+                    <img src="images/students1.jpg" alt="Happy Students at Enkakenya Ng'ejuk Testimony School" class="img-accent" loading="lazy">
+                    <div class="img-badge">
+                        <span class="badge-number">2+</span>
+                        <span class="badge-text">Years of Excellence</span>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome-content reveal delay-1">
+                <div class="section-tag"><i class="fas fa-school"></i> Welcome to Our School</div>
+                <h2 class="section-title">
+                    Enkakenya Ng'ejuk<br>
+                    <span class="text-yellow">Testimony School</span>
+                </h2>
+                <p class="welcome-motto"><em>"Where Every Sunrise Sparks Potential"</em></p>
+                <p>
+                    At Enkakenya Ng'ejuk Testimony School, we are committed to providing every child with a strong academic foundation while nurturing their character, creativity, and confidence. Located in the heart of Suswa Town, our school is a beacon of hope and opportunity for families in our community.
+                </p>
+                <p>
+                    We follow the Competency-Based Curriculum (CBC), ensuring that our learners develop practical skills, critical thinking, and a lifelong love for learning. Our qualified and dedicated teachers create a warm, safe, and stimulating environment where children thrive.
+                </p>
+                <div class="welcome-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Qualified, Certified & Caring Teachers and Staff</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Modern Learning Materials Aligned to CBC</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Affordable Fees with High-Quality Education</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Secure School Compound</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Strong Foundation for Academic & Life Success</span>
+                    </div>
+                </div>
+                <div class="welcome-actions">
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                    <a href="tel:+254119126378" class="btn btn-outline-blue">
+                        <i class="fas fa-phone"></i> Call Us Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== STATS SECTION ========== -->
+<section class="stats-section" aria-label="School Statistics">
+    <div class="stats-bg" style="background-image: url('images/school-building2.jpg')"></div>
+    <div class="stats-overlay"></div>
+    <div class="container stats-content">
+        <div class="stats-grid">
+            <div class="stat-card reveal">
+                <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+                <div class="stat-number" data-target="120">0</div>
+                <div class="stat-label">Happy Students</div>
+            </div>
+            <div class="stat-card reveal delay-1">
+                <div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <div class="stat-number" data-target="8">0</div>
+                <div class="stat-label">Qualified Teachers</div>
+            </div>
+            <div class="stat-card reveal delay-2">
+                <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                <div class="stat-number" data-target="2">0</div>
+                <div class="stat-label">Years of Excellence</div>
+            </div>
+            <div class="stat-card reveal delay-3">
+                <div class="stat-icon"><i class="fas fa-star"></i></div>
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">% Satisfaction Rate</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== WHY CHOOSE US ========== -->
+<section class="section why-section" aria-label="Why Choose Us">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-tag"><i class="fas fa-heart"></i> Why Choose Us</div>
+            <h2 class="section-title">What Makes Us <span class="text-yellow">Special</span></h2>
+            <p class="section-desc">We are dedicated to providing the highest quality education in a nurturing, innovative, and safe environment.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <div class="why-icon blue">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3>Qualified Teachers</h3>
+                <p>Our team of certified, experienced, and passionate educators are dedicated to bringing out the best in every child.</p>
+            </div>
+            <div class="why-card reveal delay-1">
+                <div class="why-icon yellow">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3>Modern Learning Environment</h3>
+                <p>Stimulating classrooms, learning materials, and facilities designed to inspire curiosity and creativity.</p>
+            </div>
+            <div class="why-card reveal delay-2">
+                <div class="why-icon red">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <h3>Digital Learning</h3>
+                <p>Equipped computer laboratory introducing children to technology from an early age, preparing them for the digital world.</p>
+            </div>
+            <div class="why-card reveal delay-3">
+                <div class="why-icon blue">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h3>Sports & Co-curricular</h3>
+                <p>Balanced education through sports, arts, music, and clubs that develop teamwork, discipline, and talent.</p>
+            </div>
+            <div class="why-card reveal delay-1">
+                <div class="why-icon yellow">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3>Excellent Academic Performance</h3>
+                <p>CBC-aligned curriculum with a proven track record of academic excellence and holistic development.</p>
+            </div>
+            <div class="why-card reveal delay-2">
+                <div class="why-icon red">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Safe School Environment</h3>
+                <p>A secure, well-maintained compound where every child feels protected, valued, and ready to learn.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CLASSES OFFERED ========== -->
+<section class="section classes-section" aria-label="Classes Offered">
+    <div class="classes-bg" style="background-image: url('images/students2.jpg')"></div>
+    <div class="classes-overlay"></div>
+    <div class="container classes-content">
+        <div class="section-header reveal" style="color:#fff;">
+            <div class="section-tag light"><i class="fas fa-book-open"></i> Programs Offered</div>
+            <h2 class="section-title" style="color:#fff;">Classes We <span class="text-yellow">Offer</span></h2>
+            <p class="section-desc" style="color:rgba(255,255,255,0.85);">Admissions are open for the following classes. Enroll your child today!</p>
+        </div>
+        <div class="classes-grid">
+            <div class="class-card reveal">
+                <div class="class-icon"><i class="fas fa-baby"></i></div>
+                <h3>Play Group</h3>
+                <p>Early childhood stimulation, play-based learning, and social development for our youngest learners.</p>
+                <a href="admissions.html" class="btn btn-yellow btn-sm">Enroll Now</a>
+            </div>
+            <div class="class-card reveal delay-1">
+                <div class="class-icon"><i class="fas fa-child"></i></div>
+                <h3>PP1</h3>
+                <p>Pre-Primary 1: Nurturing literacy, numeracy, and creativity through engaging CBC activities.</p>
+                <a href="admissions.html" class="btn btn-yellow btn-sm">Enroll Now</a>
+            </div>
+            <div class="class-card reveal delay-2">
+                <div class="class-icon"><i class="fas fa-palette"></i></div>
+                <h3>PP2</h3>
+                <p>Pre-Primary 2: Building on foundational skills with more structured learning and exploration.</p>
+                <a href="admissions.html" class="btn btn-yellow btn-sm">Enroll Now</a>
+            </div>
+            <div class="class-card reveal delay-3">
+                <div class="class-icon"><i class="fas fa-pencil-alt"></i></div>
+                <h3>Grade 1</h3>
+                <p>Grade 1: Formal CBC learning begins — reading, writing, mathematics, and discovery activities.</p>
+                <a href="admissions.html" class="btn btn-yellow btn-sm">Enroll Now</a>
+            </div>
+            <div class="class-card reveal delay-1">
+                <div class="class-icon"><i class="fas fa-book"></i></div>
+                <h3>Grade 2</h3>
+                <p>Grade 2: Advancing skills across all learning areas with project-based and collaborative learning.</p>
+                <a href="admissions.html" class="btn btn-yellow btn-sm">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="section testimonials-section" aria-label="Testimonials">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-tag"><i class="fas fa-quote-left"></i> Testimonials</div>
+            <h2 class="section-title">What <span class="text-yellow">Parents Say</span></h2>
+            <p class="section-desc">Hear from parents and students who are part of our growing family.</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-track" id="testimonialTrack">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"Enkakenya Ng'ejuk Testimony School has been a blessing to our family. My child started PP1 and within months I saw an incredible improvement in her language and creativity. The teachers are so caring!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <strong>Sarah Wanjiku</strong>
+                            <span>Parent of PP1 Student</span>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"The school provides an affordable yet high-quality education. My son loves going to school every day! The environment is safe, the teachers are qualified, and I can see his confidence growing every week."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <strong>James Mutua</strong>
+                            <span>Parent of Grade 1 Student</span>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"I was impressed by how the teachers handle young children. My daughter joined Play Group and she has developed amazing social skills and a love for learning. I highly recommend this school to every parent."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <strong>Mary Chebet</strong>
+                            <span>Parent of Play Group Student</span>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"The CBC curriculum is well implemented here. My child is learning through activities, play, and projects — not just sitting and memorizing. This is exactly what modern education should look like!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <strong>Peter Kariuki</strong>
+                            <span>Parent of Grade 2 Student</span>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="t-prev" aria-label="Previous Testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="t-dots" id="tDots"></div>
+                <button class="t-next" aria-label="Next Testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== GALLERY PREVIEW ========== -->
+<section class="section gallery-preview" aria-label="Gallery Preview">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-tag"><i class="fas fa-images"></i> Our Gallery</div>
+            <h2 class="section-title">Life at <span class="text-yellow">Our School</span></h2>
+            <p class="section-desc">A glimpse into the vibrant learning environment and community at Enkakenya Ng'ejuk Testimony School.</p>
+        </div>
+        <div class="gallery-grid reveal">
+            <div class="gallery-item large" data-src="images/school-building1.jpg">
+                <img src="images/school-building1.jpg" alt="School Building" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand-alt"></i>
+                    <span>School Building</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-src="images/students1.jpg">
+                <img src="images/students1.jpg" alt="Students" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand-alt"></i>
+                    <span>Our Students</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-src="images/students2.jpg">
+                <img src="images/students2.jpg" alt="Happy Student" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand-alt"></i>
+                    <span>Happy Students</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-src="images/school-building2.jpg">
+                <img src="images/school-building2.jpg" alt="School Compound" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand-alt"></i>
+                    <span>School Compound</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-src="images/students3.jpg">
+                <img src="images/students3.jpg" alt="Student" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand-alt"></i>
+                    <span>Our Learners</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center reveal" style="margin-top:2.5rem;">
+            <a href="gallery.html" class="btn btn-primary">View Full Gallery <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== LATEST NEWS ========== -->
+<section class="section news-section" aria-label="Latest News">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-tag"><i class="fas fa-newspaper"></i> Latest News</div>
+            <h2 class="section-title">School <span class="text-yellow">Announcements</span></h2>
+            <p class="section-desc">Stay up to date with the latest news, events, and announcements from our school.</p>
+        </div>
+        <div class="news-grid">
+            <article class="news-card reveal">
+                <div class="news-image">
+                    <img src="images/school-building2.jpg" alt="Admissions Open 2025" loading="lazy">
+                    <div class="news-category">Admissions</div>
+                </div>
+                <div class="news-body">
+                    <div class="news-date"><i class="fas fa-calendar-alt"></i> January 2025</div>
+                    <h3>2025 Admissions Now Open</h3>
+                    <p>We are pleased to announce that admissions for the 2025 academic year are now officially open for Play Group, PP1, PP2, Grade 1, and Grade 2. Secure your child's spot today!</p>
+                    <a href="admissions.html" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            <article class="news-card reveal delay-1">
+                <div class="news-image">
+                    <img src="images/students1.jpg" alt="CBC Curriculum" loading="lazy">
+                    <div class="news-category">Academics</div>
+                </div>
+                <div class="news-body">
+                    <div class="news-date"><i class="fas fa-calendar-alt"></i> December 2024</div>
+                    <h3>CBC Curriculum Successfully Implemented</h3>
+                    <p>Enkakenya Ng'ejuk Testimony School has fully implemented the Competency-Based Curriculum, aligning all learning areas with modern educational standards for holistic development.</p>
+                    <a href="news.html" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            <article class="news-card reveal delay-2">
+                <div class="news-image">
+                    <img src="images/students2.jpg" alt="Computer Lab" loading="lazy">
+                    <div class="news-category">Facilities</div>
+                </div>
+                <div class="news-body">
+                    <div class="news-date"><i class="fas fa-calendar-alt"></i> November 2024</div>
+                    <h3>New Computer Laboratory Launched</h3>
+                    <p>We are excited to announce the opening of our new computer laboratory, providing learners with access to digital learning tools and technology skills essential for the 21st century.</p>
+                    <a href="news.html" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+        <div class="text-center reveal" style="margin-top:2.5rem;">
+            <a href="news.html" class="btn btn-outline-blue">View All News <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CTA SECTION ========== -->
+<section class="cta-section" aria-label="Call to Action">
+    <div class="cta-bg" style="background-image: url('images/students3.jpg')"></div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-content reveal">
+        <div class="cta-badge"><i class="fas fa-bell"></i> Admissions Open 2025</div>
+        <h2>Give Your Child the <span class="text-yellow">Best Start in Life!</span></h2>
+        <p>Join the growing family at Enkakenya Ng'ejuk Testimony School — where every child is nurtured, valued, and empowered to succeed. Limited spots available!</p>
+        <div class="cta-buttons">
+            <a href="admissions.html" class="btn btn-yellow btn-lg">
+                <i class="fas fa-pencil-alt"></i> Apply Today
+            </a>
+            <a href="tel:+254119126378" class="btn btn-outline-white btn-lg">
+                <i class="fas fa-phone-alt"></i> +254 119 126 378
+            </a>
+            <a href="https://wa.me/254119126378" target="_blank" class="btn btn-whatsapp btn-lg">
+                <i class="fab fa-whatsapp"></i> WhatsApp Us
+            </a>
+        </div>
+        <div class="cta-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Opposite Healing River Church, Suswa Town</span>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer" role="contentinfo">
+    <div class="footer-top">
+        <div class="container footer-grid">
+            <!-- About -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="logo-text">
+                        <span class="logo-main">Enkakenya Ng'ejuk</span>
+                        <span class="logo-sub">Testimony School</span>
+                    </div>
+                </div>
+                <p class="footer-about">Where every sunrise sparks potential. Providing quality, affordable education in Suswa Town aligned with the CBC curriculum.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/254119126378" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="academics.html"><i class="fas fa-chevron-right"></i> Academics</a></li>
+                    <li><a href="admissions.html"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="news.html"><i class="fas fa-chevron-right"></i> News & Events</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Contact -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Contact Us</h4>
+                <div class="footer-contact-list">
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Opposite Healing River Church, Suswa Town, Kenya</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+254119126378">+254 119 126 378</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/254119126378" target="_blank">WhatsApp Us</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@enkakenyatestimony.ac.ke">info@enkakenyatestimony.ac.ke</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon–Fri: 7:00 AM – 5:00 PM</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Newsletter</h4>
+                <p>Subscribe to receive school updates, news, and announcements directly to your inbox.</p>
+                <form class="newsletter-form" id="newsletterForm" novalidate>
+                    <div class="newsletter-input-group">
+                        <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter">
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <p class="newsletter-note">We respect your privacy. No spam, ever.</p>
+                </form>
+                <div class="footer-classes">
+                    <h5>Enrolling For:</h5>
+                    <div class="class-tags">
+                        <span>Play Group</span>
+                        <span>PP1</span>
+                        <span>PP2</span>
+                        <span>Grade 1</span>
+                        <span>Grade 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <p>&copy; <span id="year"></span> Enkakenya Ng'ejuk Testimony School. All Rights Reserved.</p>
+            <p>Designed with <i class="fas fa-heart" style="color:#e63946;"></i> for Excellence in Education | Suswa Town, Kenya</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ========== LIGHTBOX ========== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-container">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous Image"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="Gallery Image" id="lightboxImg" class="lightbox-img">
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next Image"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</div>
+
+<!-- ========== BACK TO TOP ========== -->
+<button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ========== MOBILE MENU OVERLAY ========== -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<script src="js/main.js"></script>
+</body>
 </html>
